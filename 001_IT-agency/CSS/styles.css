@@ -1,0 +1,53 @@
+@charset "UTF-8";
+/* ----------------- ПЕРЕМЕННЫЕ --- */
+:root {
+  --color-white: #ffffff;
+  --color-black: #01020a;
+  --color-tile: #108c89;
+  --color-botanic: #124844;
+  --color-smoky: #272930;
+  --color-photon: #88e3e1;
+}
+
+body {
+  background-color: var(--color-black);
+  font-family: "Exo 2";
+  font-style: normal;
+}
+
+/*переменные*/ /* ----------------- HEADER --- */ /* ----------------- MAIN --- */ /* ----------------- FOOTER --- */ /* ----------------- FONTS --- */
+/* ------------------  Exo 2 --- */
+@font-face {
+  font-family: "Exo 2";
+  src: url("../Fonts/Exo_2/Exo2-Regular.eot"); /* IE9 Compat Modes */
+  src: local(""), url("../Fonts/Exo_2/Exo2-Regular.eot?#iefix") format("embedded-opentype"), url("../Fonts/Exo_2/Exo2-Regular.woff2") format("woff2"), url("../Fonts/Exo_2/Exo2-Regular.woff") format("woff"), url("../Fonts/Exo_2/Exo2-Regular.ttf") format("truetype"), url("../Fonts/Exo_2/Exo2-Regular.svg#Exo2-Regular") format("svg"); /* Legacy iOS */
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Exo 2";
+  src: url("../Fonts/Exo_2/Exo2-SemiBold.eot"); /* IE9 Compat Modes */
+  src: local(""), url("../Fonts/Exo_2/Exo2-SemiBold.eot?#iefix") format("embedded-opentype"), url("../Fonts/Exo_2/Exo2-SemiBold.woff2") format("woff2"), url("../Fonts/Exo_2/Exo2-SemiBold.woff") format("woff"), url("../Fonts/Exo_2/Exo2-SemiBold.ttf") format("truetype"), url("../Fonts/Exo_2/Exo2-SemiBold.svg#Exo2-SemiBold") format("svg"); /* Legacy iOS */
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Exo 2";
+  src: url("../Fonts/Exo_2/Exo2-LightItalic.eot"); /* IE9 Compat Modes */
+  src: local(""), url("../Fonts/Exo_2/Exo2-LightItalic.eot?#iefix") format("embedded-opentype"), url("../Fonts/Exo_2/Exo2-LightItalic.woff2") format("woff2"), url("../Fonts/Exo_2/Exo2-LightItalic.woff") format("woff"), url("../Fonts/Exo_2/Exo2-LightItalic.ttf") format("truetype"), url("../Fonts/Exo_2/Exo2-LightItalic.svg#Exo2-LightItalic") format("svg"); /* Legacy iOS */
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+/* ------------------  Open Sans --- */
+@font-face {
+  font-family: "Open Sans";
+  src: url("../Fonts/OpenSans/OpenSans-Bold.eot"); /* IE9 Compat Modes */
+  src: local(""), url("../Fonts/OpenSans/OpenSans-Bold.eot?#iefix") format("embedded-opentype"), url("../Fonts/OpenSans/OpenSans-Bold.woff2") format("woff2"), url("../Fonts/OpenSans/OpenSans-Bold.woff") format("woff"), url("../Fonts/OpenSans/OpenSans-Bold.ttf") format("truetype"), url("../Fonts/OpenSans/OpenSans-Bold.svg#OpenSans-Bold") format("svg"); /* Legacy iOS */
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+/*шрифты*//*# sourceMappingURL=styles.css.map */
