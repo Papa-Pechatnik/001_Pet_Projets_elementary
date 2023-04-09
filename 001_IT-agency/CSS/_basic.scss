@@ -1,7 +1,18 @@
-h1{
-
+body {
+  font-family: "Open Sans";
+  font-style: normal;
+  color: #ffffff;
+}
+h1 {
 }
 
 h2 {
-    
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 130%; /* or 62px */
+}
+
+.titel {
+  padding-bottom: 70px;
+  border: 2px solid red;
 }

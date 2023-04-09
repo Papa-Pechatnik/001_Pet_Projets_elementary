@@ -15,7 +15,24 @@ body {
   font-style: normal;
 }
 
-/*переменные*/ /* ----------------- HEADER --- */ /* ----------------- MAIN --- */ /* ----------------- FOOTER --- */ /* ----------------- FONTS --- */
+body {
+  font-family: "Open Sans";
+  font-style: normal;
+  color: #ffffff;
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 130%; /* or 62px */
+}
+
+.titel {
+  padding-bottom: 70px;
+  border: 2px solid red;
+}
+
+/* ----------------- HEADER --- */ /* ----------------- MAIN --- */ /* ----------------- FOOTER --- */ /* ----------------- FONTS --- */
 /* ------------------  Exo 2 --- */
 @font-face {
   font-family: "Exo 2";
