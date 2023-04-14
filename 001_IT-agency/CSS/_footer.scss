@@ -1,1 +1,17 @@
 /* ----------------- FOOTER --- */
+/*    footer   */
+.ftr {
+    background-color: var(--color-smoky);
+    height: 93px;
+    margin: 0 auto;
+    max-width: 1920px;
+  }
+  
+  .info {
+    color: var(--color-silver-chalice);
+    display: flex;
+    justify-content: center;
+    font-weight: 400;
+    font-size: 18px;
+    padding: 35px;
+  }
