@@ -2,7 +2,7 @@
 /* ----------------- ПЕРЕМЕННЫЕ --- */
 :root {
   --color-white: #ffffff;
-  --color-black: #01020a;
+  /* --color-black: #01020a; */
   --color-tile: #108c89;
   --color-botanic: #124844;
   --color-smoky: #272930;
@@ -10,7 +10,7 @@
 }
 
 body {
-  background-color: var(--color-black);
+  /* background-color: var(--color-black); */
   font-family: "Exo 2";
   font-style: normal;
 }
